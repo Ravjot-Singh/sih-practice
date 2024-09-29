@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
 .container{
@@ -78,8 +80,8 @@
 .dashboard{
     width: 10vw;
     height: 30vh;
-    background-color: red;
-    margin: 25px 0 ;
+    background-color: rgb(151, 41, 41);
+    margin: 10px 0 ;
     position: absolute;
     text-align: center;
     left: 120%;
@@ -90,23 +92,21 @@
 
 .exit:hover{
     cursor: pointer;
-    width: 25px;
+    width: 27px;
+}
 
+.res-cross:hover{
+    cursor: pointer;
+    width: 27px;
 }
 
 .dashboard p{
     margin: 30px;
 }
 
-.table-heading{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .resources{
-    width: 15vw;
-    height: 50vh;
+    width: 10vw;
+    height: 30vh;
     background-color: rgb(177, 39, 39);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -119,7 +119,7 @@
 
 .res-button{
     width: 10vw;
-    background-color: aqua;
+    background-color: rgb(40, 42, 42);
 }
 
 .res-ham{
@@ -131,43 +131,37 @@
     cursor: pointer;
 }
 
-.res-cross{
-    width: 27px;
-    cursor: pointer;
-
-}
-
-.res-cross{
-    margin: 10px 0;
-    padding-left: 180px;
-}
-
 .images{
     width: 100vw;
     display: flex;
+    color: white;
     align-items: center;
     gap: 400px;
-    background-color: aqua;
+    background-color: rgb(13, 14, 14);
 }
 
-table{
-    width: 99%;
-    background-color: yellowgreen;
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    border-collapse: collapse;
 }
 
- th , td{
-    padding: 40px 100px;
-    border: 1px solid;
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
     font-weight: bold;
 }
 
-.feedback{
-    padding: 40px;
-
+.row {
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
 .feedbackform{
-    background-color: rgb(58, 118, 118);
+    background-color: rgb(163, 225, 225);
     padding: 10px 15px ;
     height: 30vh;
 }
