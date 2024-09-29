@@ -5,96 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Disaster Management</title>
 </head>
 
 <body>
 
-
-
-    <div class="nav-bar">
-
+    <header class="nav-bar">
         <h2>DISASTER MANAGEMENT</h2>
-
-        <div class="nav-content">
-
+        <nav class="nav-content">
             <a href="#home">Home</a>
             <a href="#Preparedness">Preparedness</a>
-            <a href="#Alert hub">Alert hub</a>
+            <a href="#Alert hub">Alert Hub</a>
             <a href="#About Us">About Us</a>
-
-        </div>
-
+        </nav>
         <div class="login">
-
             <a href="#login">Login</a>
-            <img class="ham" src="hamburger.svg" alt="">
-
+            <img class="ham" src="hamburger.svg" alt="Menu">
         </div>
-    </div>
+    </header>
 
-    <div class="social-media-content">
-
+    <main class="social-media-content">
         <div class="resources">
-
-            <img align="right" src="cross.svg" alt="" class=" res-cross">
-            <p>resources</p>
-
+            <img src="cross.svg" alt="Close" class="res-cross" align="right">
+            <p>Resources</p>
         </div>
 
         <div class="res-button">
-            <img src="hamburger.svg" alt="" class="res-ham">
+            <img src="hamburger.svg" alt="Menu" class="res-ham">
         </div>
 
         <div class="dashboard">
-
-            <img class="exit" align="right" ; src="cross.svg" alt="">
-
+            <img class="exit" src="cross.svg" alt="Close" align="right">
             <p>Videos</p>
             <p>History</p>
-
         </div>
-
 
         <div class="images">
-            <p>image 1</p>
-            <p>image 2</p>
-            <p>image 3</p>
-
+            <p>Image 1</p>
+            <p>Image 2</p>
+            <p>Image 3</p>
         </div>
-    </div>
+    </main>
 
-    <div class="table">
+    <div class="grid-table">
         <div class="header">State</div>
         <div class="header">District</div>
         <div class="header">Deaths</div>
         <div class="header">Loss</div>
         <div class="header">Missing</div>
-        
+    
         <div class="row">California</div>
         <div class="row">Los Angeles</div>
         <div class="row">100</div>
         <div class="row">$500M</div>
         <div class="row">10</div>
-
+    
         <div class="row">Texas</div>
         <div class="row">Houston</div>
         <div class="row">50</div>
         <div class="row">$200M</div>
         <div class="row">5</div>
-
+    
         <!-- Add more rows as needed -->
     </div>
+    
 
     <div class="feedback">
-        <form class="feedbackform">
+        <form class="feedbackform" action="#" method="post">
             <h2>Feedback Form</h2>
-
             <textarea id="message" placeholder="Enter your feedback" required></textarea>
+            <button type="submit">Submit</button>
         </form>
     </div>
-
-
 
     <script type="module" src="styles.js"></script>
 </body>
